@@ -1,27 +1,46 @@
-h1 {
+#header {
+    margin-bottom: 32px;
     text-align: center;
+    font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 36px;
 }
 h2 {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
 }
-p.bio {
+#main {
     margin-left: 15px;
     line-height: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
 }
-#op {
-    margin-right: 85%;
+.op {
+    margin-right: 75%;
+    font-size: 22px;
 }
 .Unity {
     margin-right: 70%;
     margin-left: 1%;
     text-align: left;
+    font-size: 23px;
 }
 body {
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
+}
+.Unity {
+    font-weight: normal;
+    font-size: larger;
+}
+#footer {
+    margin-top: 64px;
+    text-align: center;
+}
+.foot {
+    font-size: larger;
+    text-align: center;
 }
